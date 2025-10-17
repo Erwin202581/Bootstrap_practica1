@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+
+
+<body
+    style="background-image: url('img/forms.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center center;">
+
+    <!-- Menú -->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Erwin Joya Pulido</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tutoriales.html">Tutoriales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html" aria-disabled="true">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="container-fluid bg-primary p-5 text-center">
+        <h2 class="text-center text-white mb-8">Formulario de contacto</h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+
+    <form>
+        <div class="row justify-content-center">
+            <div class="col-4 col-md-4 col-lg-3">
+                <input class="form-control mb-4 form-control-lg" type="text" id="campo_nombre" placeholder="Nombre">
+                <input class="form-control mb-4 form-control-lg" type="email" id="campo_email" placeholder="E-mail">
+                <input class="form-control mb-4 form-control-lg" type="text" id="telefono" placeholder="Teléfono">
+            </div>
+            <div class="col-md-3 content-center">
+                <textarea class="form-control" cols="30" rows="8" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+                <div class="col-md-4 offset-md-4 text-center content-center">
+                    <br>
+                    <br>
+                    <button class="btn btn-primary btn-lg content-center" type="submit">ENVIAR</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <br><br><br><br>
+
+    <footer>
+        <div class="container-fluid bg-primary p-5 text-center">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3"><a href="cursos.html" class="text-decoration-none text-white">CURSOS <i
+                            class="bi bi-database-fill-add"></i></a></div>
+                <div class="col-12 col-md-6 col-lg-3"><a href="tutoriales.html" class="text-decoration-none text-white">TUTORIALES <i
+                            class="bi bi-file-earmark-play"></i></a></div>
+                <div class="col-12 col-md-6 col-lg-3"><a href="descarga.html" class="text-decoration-none text-white">DESCARGAS <i
+                            class="bi bi-file-pdf-fill"></i></a></div>
+                <div class="col-12 col-md-6 col-lg-3"><a href="contacto.html"
+                        class="text-decoration-none text-white">CONTACTO <i class="bi bi-tiktok"></i></a></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
